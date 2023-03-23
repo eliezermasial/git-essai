@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>to do list</title>
+    <script src="./app.js" type="module" defer></script>
+</head>
+<body>
+    <main>
+        <form class ="container" id="todolist">
+            <fieldset class ="form-parent">
+                <input required class="form-container">
+                <button class="btn-primary">ajouter</button>
+                
+                    <div class="btn-grp">
+                        <button type="button" class="btn-grp-1">toutes</button>
+                        <button type="button" class="btn-grp-2">a faire</button>
+                        <button type="button" class="btn-grp-3">faites</button>
+                    </div>
+                    <div class="corps-todolist">
+                        <ul class="lisst-container">
+                            <hr>
+                            <li><label><input type="checkbox" name="cras justo odio"> cras justo odio</label><i style="color: #fff;background-color:red;margin-left: 50px;" class="fa-solid fa-x"></i></li>
+                            <hr>
+                        </ul>
+                    </div>
+                
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
